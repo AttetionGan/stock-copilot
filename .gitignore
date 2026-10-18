@@ -64,3 +64,4 @@ build/
 .next/
 .cache/
 .ipynb_checkpoints/
+*.egg-info/

@@ -1,0 +1,30 @@
+[server]
+address = "127.0.0.1"
+port = 8501
+headless = true
+runOnSave = true
+folderWatchList = ["src", "views"]
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+# Separate palettes preserve Streamlit's automatic system preference selection.
+# A top-level theme.base would force one palette for every visitor.
+[theme.light]
+primaryColor = "#365EDC"
+backgroundColor = "#F6F8FC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#17243B"
+borderColor = "#DFE5F0"
+font = "sans serif"
+
+[theme.dark]
+primaryColor = "#A7BAFF"
+backgroundColor = "#0C1322"
+secondaryBackgroundColor = "#141E30"
+textColor = "#E8EEF8"
+borderColor = "#2A3850"
+font = "sans serif"
